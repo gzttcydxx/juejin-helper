@@ -29,5 +29,10 @@ module.exports = {
    * 企业微信机器人配置
    * https://developer.work.weixin.qq.com/document/path/91770
    */
-  WEIXIN_WEBHOOK: env.WEIXIN_WEBHOOK
+  WEIXIN_WEBHOOK: env.WEIXIN_WEBHOOK,
+  /**
+   * 飞书机器人配置
+   * https://open.feishu.cn/document/ukTMukTMukTM/ucTM5YjL3ETO24yNxkjN?lang=zh-CN#383d6e48
+   */
+  FEISHU_WEBHOOK: env.FEISHU_WEBHOOK
 };
