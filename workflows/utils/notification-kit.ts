@@ -221,6 +221,7 @@ export class NotificationKit {
     await trycatch("钉钉", this.dingtalkWebhook.bind(this));
     await trycatch("微信", this.wecomWebhook.bind(this));
     await trycatch("PushPlus", this.pushplus.bind(this));
+    await trycatch("飞书", this.feishuWebhook.bind(this));
   }
 }
 
